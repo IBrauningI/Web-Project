@@ -208,11 +208,10 @@ h2{
 }
 
 #franchise-slide.slide {
-  background-color: #f0f5f8;
   display: grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  justify-items: left;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
   align-items: center;
 }
 
